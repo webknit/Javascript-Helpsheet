@@ -14,7 +14,7 @@ Null is an assignment variable, it is assigned to a variable as a representation
 	undefined == null // shows true
 	null == undefined // shows true
 
-*** Scope
+## Scope
 Scope is the set of variables, objects, and functions you have access to.
 
 	var fname = “shane”;
@@ -26,7 +26,7 @@ Scope is the set of variables, objects, and functions you have access to.
 	console.log(fname) // shane
 	console.log(lname) // undefined
 
-*** Shadowing
+## Shadowing
 Shadowing is where a variable declared within a certain scope has the same name as one declared in outer scope.
 
 	var fname = “shane”;
@@ -35,7 +35,9 @@ Shadowing is where a variable declared within a certain scope has the same name 
 		var name = fname + “prendergast”;
 	}
 
-*** Hoisting
+## Hoisting
 In short, hoisting is when JavaScript moves variable and function declarations to the top of their scope before any code is executed.
+
 Rather than me trying to explain it I am just going to link to the best - and extensive - description I've come across
+
 http://howchoo.com/g/ythlzdq1mzb/understanding-javascript-hoisting

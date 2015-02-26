@@ -14,3 +14,5 @@ A load of JS stuff I wrote to refer to when I need help. It's an ever expanding 
 ## [Functions](functions.md)
 
 ## [Objects](objects.md)
+
+## [Links](links.md)

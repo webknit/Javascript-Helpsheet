@@ -15,4 +15,4 @@ A load of JS stuff I wrote to refer to when I need help. It's an ever expanding 
 
 ## [Objects](objects.md)
 
-## [Links](links.md)
+## [Useful Links](links.md)

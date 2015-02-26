@@ -16,3 +16,15 @@ A load of JS stuff I wrote to refer to when I need help. It's an ever expanding 
 ## [Objects](objects.md)
 
 ## [Useful Links](links.md)
+
+## To do
+
+- average
+- filter
+- Map
+- http://eloquentjavascript.net/05_higher_order.html#p_RqAkArolEa
+- Callback
+
+Array methods 
+- Every
+- some

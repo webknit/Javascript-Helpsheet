@@ -78,3 +78,72 @@ Call and apply differ on how they can take arguments. You pass the arguments via
 	var newPerson = ['Bonsoir', 'Je vais bien'];
 	myInfo.sayHello(newPerson); // Bonsoir, Je vais bien Im shane you ok
 	myInfo.sayHello.apply({name: 'Luc'}, newPerson); // Bonsoir I'm Luc Je vais bien
+
+## Prototypes
+
+To create an object prototype we use an object constructor function, using the new keyword to create objects from the same prototype.
+
+	function animal(name, colour, age) {
+		this.name = name
+		this.colour = colour;
+		this.age = age;
+	}
+
+	var sheep = new animal('Barry', 'white', 28);
+
+The protype property enables inheritance in JS
+
+	function SaySomething(theSomething) {
+		this.saying = theSomething || "hello";
+	}
+
+	SaySomething.prototype.say = function () {
+		console.log(this.saying);
+	}
+
+	var obj = new SaySomething('I am alive today'); // I am alive today
+	var obj = new SaySomething(); // hello
+
+	obj.say();
+
+There are two main ways the prototype is used in JS
+
+**Prototype Property: Prototype-based Inheritance**
+
+	function Car() {
+		this.name = 'car';
+		this.wheels = 4;
+		this.belongs = 'On the road';
+		this.isFast = true;
+	}
+
+	Car.prototype.giveDetails = function() {
+		console.log('I am a ' + this.name + '. I have ' + this.wheels + 'wheels.')
+	}
+
+	Car.prototype.amIFast = function() {
+		if(this.isFast) console.log('Faster than usain Bolt');
+	}
+
+	var newMotor = new Car();
+	newMotor.giveDetails(); // I am a car I have 4 wheels
+	newMotor.amIFast(); // Faster than usain Bolt
+
+	function FordCar(model, litre) {
+	  this.model = model;
+	  this.litre = litre;
+	}
+
+	// This inherits all of the car properties
+	FordCar.prototype = new Car();
+
+	FordCar.prototype.sayCarModel = function() {
+	  console.log('This is a Ford ' + this.model + ' ' + this.litre);
+	}
+
+	var escort = new FordCar('escort', 1.3);
+
+	escort.amIFast(); // Faster than usain Bolt
+	escort.sayCarModel(); // This is a Ford escort 1.3
+
+

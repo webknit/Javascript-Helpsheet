@@ -83,13 +83,13 @@ Call and apply differ on how they can take arguments. You pass the arguments via
 
 To create an object prototype we use an object constructor function, using the new keyword to create objects from the same prototype.
 
-	function animal(name, colour, age) {
+	function Animal(name, colour, age) {
 		this.name = name
 		this.colour = colour;
 		this.age = age;
 	}
 
-	var sheep = new animal('Barry', 'white', 28);
+	var sheep = new Animal('Barry', 'white', 28);
 
 The protype property enables inheritance in JS
 

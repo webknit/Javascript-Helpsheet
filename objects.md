@@ -146,4 +146,24 @@ There are two main ways the prototype is used in JS
 	escort.amIFast(); // Faster than usain Bolt
 	escort.sayCarModel(); // This is a Ford escort 1.3
 
+**Prototype Attribute: Accessing Properties on Objects**
+
+	function Family() {
+	  this.surname = 'Prendergast';
+	  this.location = 'Scarborough'; 
+	}
+
+	var me = new Family();
+	me.location = 'Macclesfield'
+
+	var mySister = new Family();
+	mySister.surname = 'Beckham';
+
+	console.log(me.surname); // Prendergast
+	console.log(me.location); // Macclesfield
+
+	console.log(mySister.surname); // Beckham
+	console.log(mySister.location); // Scarborough
+
+
 

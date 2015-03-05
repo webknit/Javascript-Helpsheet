@@ -5,3 +5,4 @@
 - Debouncing Scroll Events - http://www.html5rocks.com/en/tutorials/speed/animations/#debouncing-scroll-events
 - Javascript Prototypes - http://sporto.github.io/blog/2013/02/22/a-plain-english-guide-to-javascript-prototypes/
 - Javascript Prototypes - http://javascriptissexy.com/javascript-prototype-in-plain-detailed-language/
+- Best way to loop through an array in JS - http://www.sebarmeli.com/blog/2010/12/06/best-way-to-loop-through-an-array-in-javascript/

@@ -79,4 +79,10 @@ A directive that transfroms a character seperated list into an actual data array
 
 	<input type="text" ng-model="name.emails" ng-list />
 
+## ng-click
+
+A directive that allows you to execute an action when a user clicks on an element
+
+	<button ng-click="add()">Add</button>
+
 

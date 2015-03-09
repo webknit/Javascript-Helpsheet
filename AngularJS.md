@@ -36,3 +36,17 @@ Used to implement temporary transformations of data as it travles between the mo
 **Example**
 An UPPERCASE filter than chanes all the text into capital letters.
 Limiting or order some datat before piping it into an NG repeat. The original array/data always stays the same, it's just the display that changes.
+
+## Two way binding
+
+> Data-binding in Angular apps is the automatic synchronization of data between the model and view components. The way that Angular implements data-binding lets you treat the model as the single-source-of-truth in your application. The view is a projection of the model at all times. When the model changes, the view reflects the change, and vice versa.
+
+	<input type="text" ng-model="user.name" />
+
+	<select ng-model="user.name">
+		<option value="Shane">Shane</option>
+		<option value="Dave">Dave</option>
+		<option value="Alex">Alex</option>
+	</select>
+
+

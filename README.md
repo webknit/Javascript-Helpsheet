@@ -15,6 +15,8 @@ A load of JS stuff I wrote to refer to when I need help. It's an ever expanding 
 
 ## [Objects](objects.md)
 
+## [AngularJS](AngularJS.md)
+
 ## [Useful Links](links.md)
 
 ## [JS questions](questions.md)

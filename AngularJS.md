@@ -15,17 +15,17 @@ AngularJS is a MVC framework which operates on the client-side. It allows you to
 - Filters
 
 ### Directives
-The fundamental building blocks fo Angular. they serve as the definitions for various declarations you wnat to use within your Angular application.
+The fundamental building blocks fo Angular. they serve as the definitions for various declarations you want to use within your Angular application.
 
 **Example**
 A module that says "make this input field a date picker".
 Building a contact info card out of data of a person object. 
 
 ### Factories
-Used to maintain one single instance of something. They can be used fro maintaining state. Additionally, they can be used to provide an abstraction layer between your directives and your API's.
+Used to maintain one single instance of something. They can be used for maintaining state. Additionally, they can be used to provide an abstraction layer between your directives and your API's.
 
 ### Controllers
-Have a lot of similra functionality to directive, but they are predominantly used for data connections and logical restraints around them. Unlike a directive, they can't contain any extra temlating or complex ordering
+Have a lot of similar functionality to directives, but they are predominantly used for data connections and logical restraints around them. Unlike a directive, they can't contain any extra temlating or complex ordering.
 
 **Example**
 Commonly used as the parent for a specific page or view that collects all the necessary data, whereas directives are the individual models and pieces that make up that view.

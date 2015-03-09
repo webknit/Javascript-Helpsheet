@@ -41,12 +41,42 @@ Limiting or order some datat before piping it into an NG repeat. The original ar
 
 > Data-binding in Angular apps is the automatic synchronization of data between the model and view components. The way that Angular implements data-binding lets you treat the model as the single-source-of-truth in your application. The view is a projection of the model at all times. When the model changes, the view reflects the change, and vice versa.
 
-	<input type="text" ng-model="user.name" />
-
 	<select ng-model="user.name">
 		<option value="Shane">Shane</option>
 		<option value="Dave">Dave</option>
 		<option value="Alex">Alex</option>
 	</select>
+
+## ng-model
+
+ng-model represents the specific property that we want to bind input to. It could be a top level property such as 'name', or nested within another object such as 'user.name'.
+
+	<input type="text" ng-model="name" />
+	<input type="text" ng-model="user.name" />
+
+	// iterate over an ayyary and output fruit names
+	angular.module('myApp', [])
+		.controller('myController', function ($scope, $http) {
+			$scope.bowlOfFruit = [
+			{name: 'Apple'},
+			{name: 'Pear'},
+			{name: 'Orange'}
+		];
+	});
+
+	<ul>
+		<li ng-repeat="name in bowlOfFruit"> {{name}} </li>
+	</ul>
+
+For read access, eg output into an input field, you can use..
+
+	{{property}}
+
+
+## ng-list
+
+A directive that transfroms a character seperated list into an actual data array for storage, and vice-versa.
+
+	<input type="text" ng-model="name.emails" ng-list />
 
 

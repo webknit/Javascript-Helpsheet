@@ -68,4 +68,6 @@ Now here's the JS and array to work with
 
 	buildTable(MOUNTAINS);
 
+Codepen is here http://codepen.io/anon/pen/bNQJro
+
 

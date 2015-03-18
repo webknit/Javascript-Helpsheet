@@ -28,3 +28,44 @@ What gets logged to the console when the user clicks on “Button 4” and why?
 	var numbers = [5, 9, 10, 6, 3, 7, 8, 16, 0];
 	// From that i want
 	var longestIncreasingSubsequence = [3, 7, 8, 16];
+
+## Using the JS and that array of objects output the mountain data in the example format provided
+
+	// EXAMPLE CODE REQUIRED
+
+	table  { border-collapse: collapse; }
+	td, th { border: 1px solid black; padding: 3px 8px; }
+	th     { text-align: left; }
+
+	<table>
+	<tr>
+		<th>name</th>
+		<th>height</th>
+		<th>country</th>
+	</tr>
+	<tr>
+		<td>Kilimanjaro</td>
+		<td>5895</td>
+		<td>Tanzania</td>
+	</tr>
+	</table>
+
+Now here's the JS and array to work with
+
+	var MOUNTAINS = [
+	  {name: "Kilimanjaro", height: 5895, country: "Tanzania"},
+	  {name: "Everest", height: 8848, country: "Nepal"},
+	  {name: "Mount Fuji", height: 3776, country: "Japan"},
+	  {name: "Mont Blanc", height: 4808, country: "Italy/France"},
+	  {name: "Vaalserberg", height: 323, country: "Netherlands"},
+	  {name: "Denali", height: 6168, country: "United States"},
+	  {name: "Popocatepetl", height: 5465, country: "Mexico"}
+	];
+
+	function buildTable(data) {
+	  // CODE IN HERE
+	}
+
+	buildTable(MOUNTAINS);
+
+

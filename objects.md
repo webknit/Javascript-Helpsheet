@@ -21,6 +21,30 @@
 	myInfo.sayHello(); // Hi my name is shane
 	mateInfo.sayHello(); // Hi my name is john
 
+## Looping through objects
+
+	for(var prop in data) {
+		console.log(data[prop]);
+	}
+
+Looping through object in array.
+
+	var arr = [
+		{name: 'shane', age: '18', sex: 'male'},
+		{name: 'John', age: '28', sex: 'male'},
+		{name: 'Sue', age: '17', sex: 'female'}
+	]
+
+	for(i = 0; c = arr.length; i < c; i++) {
+		
+		for(var prop in arr[i]) {
+
+			console.log(arr[i][prop]);
+
+		}
+
+	}
+
 ## Call
 Call enables us to add an extra argument which determines which value should be bound to this when calling the function
 

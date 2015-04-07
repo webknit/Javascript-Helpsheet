@@ -2,6 +2,7 @@
 
 - Eloquent JavaScript - http://eloquentjavascript.net/
 - Difference between call and apply - http://hangar.runway7.net/javascript/difference-call-apply
+- Rundown of JS frameworks - http://blog.andyet.com/2014/08/13/opinionated-rundown-of-js-frameworks
 - Learning about JS Hoisting - http://howchoo.com/g/ythlzdq1mzb/understanding-javascript-hoisting
 - Debouncing Scroll Events - http://www.html5rocks.com/en/tutorials/speed/animations/#debouncing-scroll-events
 - Javascript Prototypes - http://sporto.github.io/blog/2013/02/22/a-plain-english-guide-to-javascript-prototypes/

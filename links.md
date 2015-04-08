@@ -10,3 +10,4 @@
 - Best way to loop through an array in JS - http://www.sebarmeli.com/blog/2010/12/06/best-way-to-loop-through-an-array-in-javascript/
 - Learning Angular JS - https://thinkster.io/a-better-way-to-learn-angularjs/
 - The for loop in JS - https://nostrongbeliefs.com/the-for-loop-in-javascript/
+- Prototypal V Classical inheritance - http://stackoverflow.com/questions/2800964/benefits-of-prototypal-inheritance-over-classical

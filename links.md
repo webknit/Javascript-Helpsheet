@@ -11,3 +11,4 @@
 - Learning Angular JS - https://thinkster.io/a-better-way-to-learn-angularjs/
 - The for loop in JS - https://nostrongbeliefs.com/the-for-loop-in-javascript/
 - Prototypal V Classical inheritance - http://stackoverflow.com/questions/2800964/benefits-of-prototypal-inheritance-over-classical
+- Step by step guide to your first angularjs app - http://www.toptal.com/angular-js/a-step-by-step-guide-to-your-first-angularjs-app
